@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/starter.css">
+  <link rel="stylesheet" href="assets/css/normalize.css">
+  <link rel="icon" type="image/x-icon" href="assets/img/favicon.PNG">
+  <title>FODUN - Registro</title>
+</head>
+
+<body>
+      <div class="container  container-fluid container-index">
+        <div class="row py-4 px-2 align-items-center h-100">
+          <div class="col-12 col-sm-6">
+            <div class="w-100 position-relative">
+              <div class="logo-wrapper position position-absolute bottom-0 start-0 end-0 bg-light">
+                <figure>
+                  <img src="./assets/img/log-fodun.jpg">
+                </figure>
+                <figure>
+                  <img src="./assets/img/logo.svg">
+                </figure>
+              </div>
+              <figure>
+                  <img src="./assets/img/inicio.jpg">
+              </figure>
+            </div>
+
+          </div>
+          <div class="col-12 col-sm-6">
+            <div class="titles-wrapper">
+              <h1 class="color-primary text-primary text-md-start text-center">Registro</h1>
+              <hr>
+            </div>
+            
+            <form>
+              <fieldset>
+
+                <div class="container px-0">
+                  <div class="row">
+                    <div class="col-12">
+                      <label for="username" class="form-label">Registrar con 	</label>
+                    </div>
+                  </div>
+                  <div class="row py-2 mb-2">
+                    <div class="col-6">
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="typeregister" id="mail">
+                        <label class="form-check-label" for="mail">
+                          Email
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="form-check">
+                        <input class="form-check-input" id="cel" type="radio" name="typeregister" id="cel">
+                        <label class="form-check-label" for="cel">
+                          Celular
+                        </label>
+                      </div>
+                    </div>
+                  </div>  
+                  
+                  <!-- MAIL -->
+
+                  <div class="row pt-1">
+                    <div class="col-12">
+                      <label for="mailinput" class="form-label">Email 	</label>
+                    </div>
+                  </div>
+
+                  <div class="row py-1">
+                    <div class="col-12">
+                      <div class="mb-3 d-flex position-relative">
+                      
+                        <div class="input-wrap position-absolute">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                          </svg>
+                        </div>
+                      
+                        <input 
+                          type="email" 
+                          id="mailinput" 
+                          class="form-control icon" 
+                          placeholder="Número de Documento">
+                      </div>
+                    </div>
+
+                 
+                  </div>
+
+                  <!-- IDENTIFICACION -->
+
+                  <div class="row pt-1">
+                    <div class="col-12">
+                      <label for="username" class="form-label">Identificación</label>
+                    </div>
+                  </div>
+
+                  <div class="row py-1">
+                    <div class="col-12">
+                      <div class="mb-3 d-flex position-relative">
+                      
+                        <div class="input-wrap position-absolute">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+                          </svg>
+                        </div>
+                      
+                        <input 
+                          type="text" 
+                          id="username" 
+                          class="form-control icon" 
+                          placeholder="Número de Documento">
+                      </div>
+                    </div>
+
+                 
+                  </div>
+
+                  <!-- PASSWORD -->
+
+                  <div class="row pt-1">
+                    <div class="col-12">
+                      <label for="password" class="form-label">Contraseña</label>
+                    </div>
+                  </div>
+
+                  <div class="row py-1">
+                    <div class="col-12">
+                      <div class="mb-3 d-flex position-relative">
+                      
+                        <div class="input-wrap position-absolute">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock" viewBox="0 0 16 16">
+                            <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2zM5 8h6a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/>
+                          </svg>
+                        </div>
+                      
+                        <input 
+                          type="password" 
+                          id="password" 
+                          class="form-control icon" 
+                          placeholder="Número de Documento">
+                      </div>
+                    </div>
+                  </div>
+
+                  
+                  <!-- CONFIRMAR PASSWORD -->
+
+                  <div class="row pt-1">
+                    <div class="col-12">
+                      <label for="password2" class="form-label">Confirmar Contraseña</label>
+                    </div>
+                  </div>
+
+                  <div class="row py-1">
+                    <div class="col-12">
+                      <div class="mb-3 d-flex position-relative">
+                      
+                        <div class="input-wrap position-absolute">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock" viewBox="0 0 16 16">
+                            <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2zM5 8h6a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/>
+                          </svg>
+                        </div>
+                      
+                        <input 
+                          type="password" 
+                          id="password2"
+                          class="form-control icon" 
+                          placeholder="Número de Documento">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              
+
+              
+                <div class="container">
+                  <div class="row my-4">
+                    <div class="col-12 col-sm-6">
+                      <a class="btn btn-primary w-100" type="button" href="publicaciones.html">REGISTRAR</a>
+                    </div>
+                  </div>
+                </div>
+               
+              </fieldset>
+            </form>
+
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <p class="mb-1">¿Ya tienes cuenta? <a href="index.html" class="text-primary underline fw-bolder text-decoration-underline"> Inicio de Sesión</a>  </p>
+                  <p class="mb-1">¿Has olvidado tu Contraseña?<a href="#" class="text-primary underline fw-bolder text-decoration-underline">  Recuperar contraseña </a>  </p>              
+                  <p class="mb-1"> ¿Deseas reenviar su código de activación?<a href="#" class="text-primary underline fw-bolder text-decoration-underline">   Reenviar Código </a>  </p>              
+                </div>
+              </div>
+             
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+      <script type="module" src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

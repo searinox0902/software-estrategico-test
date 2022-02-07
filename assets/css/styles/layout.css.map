@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "layout.css",
+	"sources": [
+		"../../../scss/styles/layout.scss"
+	],
+	"sourcesContent": [
+		".container-index{\r\n    height: 100vh;\r\n    \r\n}\r\n\r\n\r\n.main-content{\r\n    display: flex;\r\n\r\n    .sidebar{\r\n        min-width: 300px;\r\n        max-width: 600px;\r\n    }\r\n\r\n    .main{\r\n        width: 100%;\r\n        height: 100%;\r\n    }\r\n}\r\n\r\nfigure, img{\r\n    margin: 0;\r\n}\r\n\r\nimg{\r\n    display: block;\r\n    width: 100%;\r\n}\r\n\r\n\r\n\r\n@media screen and (max-width: 992px){\r\n    .container-index{\r\n        height: auto\r\n        \r\n    }\r\n}"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,gBAAgB,AAAA,CACZ,MAAM,CAAE,KAAK,CAEhB,AAGD,AAAA,aAAa,AAAA,CACT,OAAO,CAAE,IAAI,CAWhB,AAZD,AAGI,aAHS,CAGT,QAAQ,AAAA,CACJ,SAAS,CAAE,KAAK,CAChB,SAAS,CAAE,KAAK,CACnB,AANL,AAQI,aARS,CAQT,KAAK,AAAA,CACD,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,IAAI,CACf,AAGL,AAAA,MAAM,CAAE,GAAG,AAAA,CACP,MAAM,CAAE,CAAC,CACZ,AAED,AAAA,GAAG,AAAA,CACC,OAAO,CAAE,KAAK,CACd,KAAK,CAAE,IAAI,CACd,AAID,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK,EAC/B,AAAA,gBAAgB,AAAA,CACZ,MAAM,CAAE,IAEZ,CAAC"
+}

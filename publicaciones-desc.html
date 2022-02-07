@@ -1,0 +1,477 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/starter.css">
+  <link rel="stylesheet" href="assets/css/normalize.css">
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+  <link rel="icon" type="image/x-icon" href="assets/img/favicon.PNG">
+  <title>FODUN - Publicacion</title>
+</head>
+
+<body>
+  <div>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="header d-flex align-items-center">
+      <nav class="navbar navbar-light bg-light container-fluid">
+        <div class=" w-100">
+          <div class="row">
+            <div class="col-10 col-lg-6 d-flex">
+              <i class="d-sm-none" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#8C0010" class="bi bi-list"
+                  viewBox="0 0 16 16">
+                  <path fill-rule="evenodd"
+                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                </svg>
+              </i>
+              <figure>
+                <img src="./assets/img/log-fodun.jpg" alt="logo">
+              </figure>
+              <figure>
+                <img width="100%" src="./assets/img/logo.svg" alt="logo">
+              </figure>
+            </div>
+
+            <div class="col-10 col-lg-6  justify-content-end d-none d-sm-flex align-items-center">
+              User
+              <svg class="bi bi-person-circle mx-2" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                fill="currentColor" viewBox="0 0 16 16">
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                <path fill-rule="evenodd"
+                  d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="collapse navbar-collapse pt-3 pl-3" id="navbarSupportedContent">
+          <div class="d-flex my-4 align-items-center justify-content-start d-flex align-items-center ">
+            <svg class="bi bi-person-circle mr-2" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+              fill="currentColor" viewBox="0 0 16 16">
+              <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+              <path fill-rule="evenodd"
+                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+            </svg>
+            Username
+          </div>
+
+          <div class="d-flex my-4">
+            <button type="button"
+              class="btn btn-primary btn-rouned px-4 d-flex align-items-center justify-content-start">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#fff"
+                class="bi bi-house-door-fill mr-2" viewBox="0 0 16 16">
+                <path
+                  d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z" />
+              </svg>
+              Inicio
+            </button>
+          </div>
+
+          <div class="d-flex my-4">
+            <button type="button" class="btn btn-light btn-rouned px-4 d-flex align-items-center justify-content-start">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#000" class="bi bi-building mr-2"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022zM6 8.694 1 10.36V15h5V8.694zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15z" />
+                <path
+                  d="M2 11h1v1H2v-1zm2 0h1v1H4v-1zm-2 2h1v1H2v-1zm2 0h1v1H4v-1zm4-4h1v1H8V9zm2 0h1v1h-1V9zm-2 2h1v1H8v-1zm2 0h1v1h-1v-1zm2-2h1v1h-1V9zm0 2h1v1h-1v-1zM8 7h1v1H8V7zm2 0h1v1h-1V7zm2 0h1v1h-1V7zM8 5h1v1H8V5zm2 0h1v1h-1V5zm2 0h1v1h-1V5zm0-2h1v1h-1V3z" />
+              </svg>
+              Publicaciones
+            </button>
+          </div>
+
+
+          <div class="d-flex my-4">
+            <button type="button"
+              class="btn btn-light nav-link btn-rouned px-4 d-flex align-items-center justify-content-start">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#000" class="mr-2 bi bi-arrow-left"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+              </svg>
+              Salir
+            </button>
+          </div>
+        </div>
+
+      </nav>
+
+    </header>
+
+
+
+    <div class="container-fluid main-content mb-5">
+      <!-- ======= sidebar ======= -->
+      <aside id="sidebar" class="sidebar d-none d-sm-block">
+        <div class=" pt-3 pl-3">
+          <div class="d-sm-none d-flex my-4 align-items-center justify-content-start d-flex align-items-center ">
+            <svg class="bi bi-person-circle mr-2" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+              fill="currentColor" viewBox="0 0 16 16">
+              <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+              <path fill-rule="evenodd"
+                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+            </svg>
+            Username
+          </div>
+
+          <div class="d-flex my-4">
+            <a type="button" href="inicio.html"
+              class="btn btn-light btn-rouned px-4 d-flex align-items-center justify-content-start">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#000"
+                class="bi bi-house-door-fill mr-2" viewBox="0 0 16 16">
+                <path
+                  d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z" />
+              </svg>
+              Inicio
+            </a>
+          </div>
+
+          <div class="d-flex my-4">
+            <a type="button" href="publicaciones.html"
+              class="btn btn-primary btn-rouned px-4 d-flex align-items-center justify-content-start">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-building mr-2"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022zM6 8.694 1 10.36V15h5V8.694zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15z" />
+                <path
+                  d="M2 11h1v1H2v-1zm2 0h1v1H4v-1zm-2 2h1v1H2v-1zm2 0h1v1H4v-1zm4-4h1v1H8V9zm2 0h1v1h-1V9zm-2 2h1v1H8v-1zm2 0h1v1h-1v-1zm2-2h1v1h-1V9zm0 2h1v1h-1v-1zM8 7h1v1H8V7zm2 0h1v1h-1V7zm2 0h1v1h-1V7zM8 5h1v1H8V5zm2 0h1v1h-1V5zm2 0h1v1h-1V5zm0-2h1v1h-1V3z" />
+              </svg>
+              Publicaciones
+            </a>
+          </div>
+
+          <div class="d-flex my-4">
+            <a type="button" href="index.html"
+              class="btn btn-light nav-link btn-rouned px-4 d-flex align-items-center justify-content-start">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#000" class="mr-2 bi bi-arrow-left"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+              </svg>
+              Salir
+            </a>
+          </div>
+        </div>
+      </aside>
+
+      <main id="main" class="main">
+        <div class="container px-0 pt-3">
+          <div class="row">
+            <div class="col-12">
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb px-0">
+                  <li class="breadcrumb-item"><a href="#">Publicaciones /</a></li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+
+          <!-- Publicaciones -->
+
+          <div class="row">
+            <div class="col-12">
+              <p class="mb-0 text-primary">Sede Recreativa</p>
+              <h4>Villeta #12313</h4>
+              <hr>
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide p-4">
+                  <figure>
+                    <img src="assets/img/img1.jpg" class="card-img-top" alt="...">
+                  </figure>
+                </div>
+                <div class="swiper-slide p-4">
+                  <figure>
+                    <img src="assets/img/img1.jpg" class="card-img-top" alt="...">
+                  </figure>
+                </div>
+                <div class="swiper-slide p-4">
+                  <figure>
+                    <img src="assets/img/img1.jpg" class="card-img-top" alt="...">
+                  </figure>
+                </div>
+
+              </div>
+              <div class="swiper-pagination my-4"></div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12">
+              <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link active" id="home-tab" data-bs-toggle="tab" href="#home" role="tab"
+                    aria-controls="home" aria-selected="true">Descripción</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab"
+                    aria-controls="profile" aria-selected="false">Reserva</a>
+                </li>
+              </ul>
+              <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                  <div class="container px-0">
+                    <div class="row mt-4">
+                      <div class="col-12 col-sm-8 ">
+                        <h3 class="text-primary my-4 mb-1">Villeta #0000</h3>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                          laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                          voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                          non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                      </div>
+
+                      <div class="col-12 col-sm-4 d-flex flex-column justify-content-between">
+                        <div>
+                          <div class="badge rounded-pill bg-white text-dark px-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#8C0010"
+                              class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                              <path
+                                d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                            </svg>
+                            Gualivá - Cundinamarca
+                          </div>
+                        </div>
+
+
+
+                        <div>
+                          <h4 class="my-1">$100.000</h4>
+                          <p class="text-primary">Apartamento</p>
+                        </div>
+
+                        <div>
+                          <div class="d-flex align-items-center">
+                            <figure style="max-width: 20px;" class="mr-2">
+                              <img src="./assets/img/room.svg">
+                            </figure>
+                            <span class="text-dark">4</span>
+                          </div>
+                          <div class="d-flex align-items-center">
+                            <figure style="max-width: 20px;" class="mr-2">
+                              <img src="./assets/img/bathroom.svg">
+                            </figure>
+                            <span class="text-dark">4</span>
+                          </div>
+                          <div class="d-flex align-items-center">
+                            <figure style="max-width: 20px;" class="mr-2">
+                              <img src="./assets/img/car.svg">
+                            </figure>
+                            <span class="text-dark">4</span>
+                          </div>
+                        </div>
+
+                      </div>
+
+                      <div class=" col-12 my-3">
+                        <button type="button"
+                          class="btn btn-primary btn-rouned px-4 d-flex align-items-center justify-content-start">
+                          RESERVAR
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+
+                  <form>
+                    <fieldset>
+                      <div class="container px-0">
+                        <div class="row">
+                          <div class="col-12 col-sm-4">
+                            
+                            <input type="date" id="username" class="form-control my-4" placeholder="Fecha de Salida">
+                            <input type="date" id="username" class="form-control my-4" placeholder="Fecha de llegada">
+                            <div class="col-8 mb-3 d-flex align-items-center ">
+                                Noches
+                                <input 
+                                  type="number" 
+                                  id="nigths" 
+                                  class="form-control" 
+                                  placeholder="1">
+                            </div>
+                            <div class="col-8 mb-3 d-flex align-items-center ">
+                                Pesonas
+                                <input 
+                                  type="number" 
+                                  id="rooms" 
+                                  class="form-control" 
+                                  placeholder="1">
+                            </div>
+                            <div class="col-8 mb-3 d-flex align-items-center ">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
+                                    <label class="form-check-label" for="flexCheckIndeterminate">
+                                      Servicio de Lanvandería
+                                    </label>
+                                  </div>
+                            </div>
+                          </div>
+
+                          <div class="col-12 col-sm-8">
+                            
+                            <div class="col-12 mb-3 d-flex align-items-center ">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <p>Habitaciones</p>
+                                    </div>
+                                    <div class="col-4">
+                                        <input 
+                                        type="number" 
+                                        id="rooms" 
+                                        class="form-control" 
+                                        placeholder="1">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 mb-3 d-flex align-items-center ">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <p>
+                                            Dias Ordinarios
+                                        </p>
+                                    </div>
+
+                                    <div class="col-4">
+                                        <input 
+                                        type="number" 
+                                        id="days" 
+                                        class="form-control" 
+                                        placeholder="1">
+                                    </div>
+
+                                    <div class="col-4">
+                                        <div class="form-control mx-3">
+                                            <p>$ 200</p>
+                                          </div>
+                                    </div>
+                                </div> 
+                            </div>
+                            <div class="col-12 mb-3 d-flex align-items-center ">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <p>
+                                            Dias Especiales
+                                        </p>
+                                    </div>
+
+                                    <div class="col-4">
+                                        <input 
+                                        type="number" 
+                                        id="days" 
+                                        class="form-control" 
+                                        placeholder="1">
+                                    </div>
+
+                                    <div class="col-4">
+                                        <div class="form-control mx-3">
+                                            <p>$ 200</p>
+                                          </div>
+                                    </div>
+                                </div> 
+                            </div>
+
+                            <div class="col-12 mb-3 d-flex align-items-center ">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <p>
+                                            Lavandería:
+                                        </p>
+                                    </div>
+
+                                    <div class="col-8">
+                                        <div class="form-control mx-3">
+                                            <p>$ 200</p>
+                                          </div>
+                                    </div>
+                                </div> 
+                            </div>
+                            <div class="col-12 mb-3 d-flex align-items-center ">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <p class="text-primary">
+                                                <strong> Valor Total </strong>
+                                            </p>
+                                        </div>
+    
+                                        <div class="col-6">
+                                            <div class="">
+                                                <p class="text-primary"> <strong>$ 200</strong> </p>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                
+                                </div>
+                            </div>
+                          </div>
+
+                          <div class="col-12 my-4">
+                            <button type="button"
+                            class="btn btn-primary btn-rouned px-4 d-flex align-items-center justify-content-start">
+                            CONFIRMAR RESERVA
+                          </button>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                </fieldset>
+                </form>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </div>
+  </div>
+  </main>
+  </div>
+
+  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script type="module" src="assets/js/bootstrap.bundle.min.js"></script>
+  <script type="module">
+    import Swiper from 'https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js'
+    
+      const swiper = new Swiper('.swiper', {
+          slidesPerView: 1,
+          breakpoints: {
+            
+            640: {
+              slidesPerView: 3,
+              spaceBetween: 40
+            },
+          },
+          autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+          },
+            keyboard: {
+            enabled: true,
+          },
+          spaceBetween: 10,
+          freeMode: true,
+          pagination: {
+            el: '.swiper-pagination',
+          }
+        });
+
+    </script>
+
+
+</body>
+
+</html>

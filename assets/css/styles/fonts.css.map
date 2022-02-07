@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "fonts.css",
+	"sources": [
+		"../../../scss/styles/fonts.scss"
+	],
+	"sourcesContent": [
+		"/* ------------ Nunito types ----------- */\r\n/* --------------------------------------*/\r\n\r\n@font-face {\r\n    font-family: 'Nunito_Sans';\r\n    src:url(\".././fonts/nunito_sans/NunitoSans-Light.ttf\");\r\n    font-weight: 300;\r\n    font-style: normal;\r\n} \r\n\r\n\r\n@font-face {\r\n    font-family: 'Nunito_Sans';\r\n    src:url(\".././fonts/nunito_sans/NunitoSans-Regular.ttf\");\r\n    font-weight: 400;\r\n    font-style: normal;\r\n} \r\n\r\n@font-face {\r\n    font-family: 'Nunito_Sans';\r\n    src:url(\".././fonts/nunito_sans/NunitoSans-Bold.ttf\");\r\n    font-weight: 600;\r\n    font-style: normal;\r\n} \r\n\r\n/* ------------- Open Sans ------------- */\r\n/* --------------------------------------*/\r\n\r\n\r\n@font-face {\r\n    font-family: 'open_sans';\r\n    src:url(\".././fonts/Open_Sans/OpenSans-Light.ttf\");\r\n    font-weight: 300;\r\n    font-style: normal;\r\n} \r\n\r\n\r\n@font-face {\r\n    font-family: 'open_sans';\r\n    src:url(\".././fonts/Open_Sans/OpenSans-Regular.ttf\");\r\n    font-weight: 400;\r\n    font-style: normal;\r\n} \r\n\r\n@font-face {\r\n    font-family: 'open_sans';\r\n    src:url(\".././fonts/Open_Sans/OpenSans-Bold.ttf\");\r\n    font-weight: 600;\r\n    font-style: normal;\r\n} \r\n"
+	],
+	"names": [],
+	"mappings": "AAGA,UAAU,CACN,WAAW,CAAE,aAAa,CAC1B,GAAG,CAAC,kDAAkD,CACtD,WAAW,CAAE,GAAG,CAChB,UAAU,CAAE,MAAM,CAItB,UAAU,CACN,WAAW,CAAE,aAAa,CAC1B,GAAG,CAAC,oDAAoD,CACxD,WAAW,CAAE,GAAG,CAChB,UAAU,CAAE,MAAM,CAGtB,UAAU,CACN,WAAW,CAAE,aAAa,CAC1B,GAAG,CAAC,iDAAiD,CACrD,WAAW,CAAE,GAAG,CAChB,UAAU,CAAE,MAAM,CAOtB,UAAU,CACN,WAAW,CAAE,WAAW,CACxB,GAAG,CAAC,8CAA8C,CAClD,WAAW,CAAE,GAAG,CAChB,UAAU,CAAE,MAAM,CAItB,UAAU,CACN,WAAW,CAAE,WAAW,CACxB,GAAG,CAAC,gDAAgD,CACpD,WAAW,CAAE,GAAG,CAChB,UAAU,CAAE,MAAM,CAGtB,UAAU,CACN,WAAW,CAAE,WAAW,CACxB,GAAG,CAAC,6CAA6C,CACjD,WAAW,CAAE,GAAG,CAChB,UAAU,CAAE,MAAM"
+}

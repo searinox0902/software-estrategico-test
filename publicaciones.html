@@ -1,0 +1,801 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/starter.css">
+  <link rel="stylesheet" href="assets/css/normalize.css">
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+  <link rel="icon" type="image/x-icon" href="assets/img/favicon.PNG">
+  <title>FODUN - Publicacion</title>
+</head>
+
+<body>
+  <div>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="header d-flex align-items-center">
+      <nav class="navbar navbar-light bg-light container-fluid">
+        <div class=" w-100">
+          <div class="row">
+            <div class="col-10 col-lg-6 d-flex">
+              <i class="d-sm-none" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#8C0010" class="bi bi-list"
+                  viewBox="0 0 16 16">
+                  <path fill-rule="evenodd"
+                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                </svg>
+              </i>
+              <figure>
+                <img src="./assets/img/log-fodun.jpg" alt="logo">
+              </figure>
+              <figure>
+                <img width="100%" src="./assets/img/logo.svg" alt="logo">
+              </figure>
+            </div>
+
+            <div class="col-10 col-lg-6  justify-content-end d-none d-sm-flex align-items-center">
+              User
+              <svg class="bi bi-person-circle mx-2" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                fill="currentColor" viewBox="0 0 16 16">
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                <path fill-rule="evenodd"
+                  d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="collapse navbar-collapse pt-3 pl-3" id="navbarSupportedContent">
+          <div class="d-flex my-4 align-items-center justify-content-start d-flex align-items-center ">
+            <svg class="bi bi-person-circle mr-2" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+              fill="currentColor" viewBox="0 0 16 16">
+              <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+              <path fill-rule="evenodd"
+                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+            </svg>
+            Username
+          </div>
+
+          <div class="d-flex my-4">
+            <button type="button"
+              class="btn btn-primary btn-rouned px-4 d-flex align-items-center justify-content-start">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#fff"
+                class="bi bi-house-door-fill mr-2" viewBox="0 0 16 16">
+                <path
+                  d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z" />
+              </svg>
+              Inicio
+            </button>
+          </div>
+
+          <div class="d-flex my-4">
+            <button type="button" class="btn btn-light btn-rouned px-4 d-flex align-items-center justify-content-start">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#000" class="bi bi-building mr-2"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022zM6 8.694 1 10.36V15h5V8.694zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15z" />
+                <path
+                  d="M2 11h1v1H2v-1zm2 0h1v1H4v-1zm-2 2h1v1H2v-1zm2 0h1v1H4v-1zm4-4h1v1H8V9zm2 0h1v1h-1V9zm-2 2h1v1H8v-1zm2 0h1v1h-1v-1zm2-2h1v1h-1V9zm0 2h1v1h-1v-1zM8 7h1v1H8V7zm2 0h1v1h-1V7zm2 0h1v1h-1V7zM8 5h1v1H8V5zm2 0h1v1h-1V5zm2 0h1v1h-1V5zm0-2h1v1h-1V3z" />
+              </svg>
+              Publicaciones
+            </button>
+          </div>
+
+
+          <div class="d-flex my-4">
+            <button type="button"
+              class="btn btn-light nav-link btn-rouned px-4 d-flex align-items-center justify-content-start">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#000" class="mr-2 bi bi-arrow-left"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+              </svg>
+              Salir
+            </button>
+          </div>
+        </div>
+
+      </nav>
+
+    </header>
+
+
+
+    <div class="container-fluid main-content">
+      <!-- ======= sidebar ======= -->
+      <aside id="sidebar" class="sidebar d-none d-sm-block">
+        <div class=" pt-3 pl-3">
+          <div class="d-sm-none d-flex my-4 align-items-center justify-content-start d-flex align-items-center ">
+            <svg class="bi bi-person-circle mr-2" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+              fill="currentColor" viewBox="0 0 16 16">
+              <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+              <path fill-rule="evenodd"
+                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+            </svg>
+            Username
+          </div>
+
+          <div class="d-flex my-4">
+            <a type="button" href="inicio.html"
+              class="btn btn-light btn-rouned px-4 d-flex align-items-center justify-content-start">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#000"
+                class="bi bi-house-door-fill mr-2" viewBox="0 0 16 16">
+                <path
+                  d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z" />
+              </svg>
+              Inicio
+            </a>
+          </div>
+
+          <div class="d-flex my-4">
+            <a type="button" href="publicaciones.html"
+              class="btn btn-primary btn-rouned px-4 d-flex align-items-center justify-content-start">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-building mr-2"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022zM6 8.694 1 10.36V15h5V8.694zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15z" />
+                <path
+                  d="M2 11h1v1H2v-1zm2 0h1v1H4v-1zm-2 2h1v1H2v-1zm2 0h1v1H4v-1zm4-4h1v1H8V9zm2 0h1v1h-1V9zm-2 2h1v1H8v-1zm2 0h1v1h-1v-1zm2-2h1v1h-1V9zm0 2h1v1h-1v-1zM8 7h1v1H8V7zm2 0h1v1h-1V7zm2 0h1v1h-1V7zM8 5h1v1H8V5zm2 0h1v1h-1V5zm2 0h1v1h-1V5zm0-2h1v1h-1V3z" />
+              </svg>
+              Publicaciones
+            </a>
+          </div>
+
+
+          <div class="d-flex my-4">
+            <a type="button" href="index.html"
+              class="btn btn-light nav-link btn-rouned px-4 d-flex align-items-center justify-content-start">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#000" class="mr-2 bi bi-arrow-left"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+              </svg>
+              Salir
+            </a>
+          </div>
+        </div>
+      </aside>
+
+      <main id="main" class="main">
+        <div class="container px-0 pt-3">
+          <div class="row">
+            <div class="col-12">
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb px-0">
+                  <li class="breadcrumb-item"><a href="#">Publicaciones /</a></li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+
+          <!-- Publicaciones -->
+
+          <div class="row">
+            <div class="col-12">
+              <h4>Apartamentos y Sedes</h4>
+              <hr>
+            </div>
+          </div>
+
+          <!-- FILTERS -->
+          <div>
+            <form>
+              <fieldset>
+                <div class="container px-0">
+                  <div class="row">
+                    <div class="col-12 col-sm-3 mb-3">
+                      <div class="d-flex position-relative">
+
+                        <div class="input-wrap position-absolute">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#8c0010"
+                            class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            <path
+                              d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                          </svg>
+                        </div>
+
+                        <input type="search" id="locate" class="form-control icon" placeholder="Ubicacion">
+                      </div>
+                    </div>
+
+                    <div class="col-12 col-sm-3 mb-3">
+                      <select class="form-control form-select py-1 px-2 rounded w-100">
+                        <option selected value="2">Apartamento</option>
+                        <option value="1">Sede Recreativa</option>
+                      </select>
+                    </div>
+
+                    <div class="col-12 col-sm-3 mb-3">
+                      <select class="form-control form-select py-1 px-2 rounded w-100">
+                        <option selected value="2">Mayor Precio</option>
+                        <option value="1">Menor Precio</option>
+                      </select>
+                    </div>
+
+                    <div class="col-12 col-sm mb-3 d-flex align-items-center ">
+                      <figure style="max-width: 20px;" class="mr-2">
+                        <img src="./assets/img/room.svg">
+                      </figure>
+                      <input 
+                        type="number" 
+                        id="rooms" 
+                        class="form-control" 
+                        placeholder="1">
+                    </div>
+
+                    <div class="col-12 col-sm mb-3 d-flex align-items-center ">
+                      <figure style="max-width: 20px;" class="mr-2">
+                        <img src="./assets/img/bathroom.svg">
+                      </figure>
+                      <input 
+                        type="number" 
+                        id="bathrooms" 
+                        class="form-control" 
+                        placeholder="2">
+                    </div>
+
+
+
+
+                  </div>
+                </div>
+
+
+              </fieldset>
+            </form>
+          </div>
+
+          <div class="row mb-4">
+            <div class="col-12 col-sm-4 p-4">
+              <a class="card shadow card-post position-relative"  href="publicaciones-desc.html">
+                <img src="assets/img/img1.jpg" class="card-img-top" alt="...">
+                <div class="card-body position-absolute bg-light">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-9">
+                        <div class="row">
+                          <div class="col-12">
+                            <h5 class="mb-1 bold text-dark">$ 100.000</h5>
+                            <div>
+                              <p class="text-primary mb-0">Apartamento</p>
+                              <h5 class="mb-0 bold  text-dark">Villeta</h5>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                      <div class="col-3 d-flex flex-column justify-content-between">
+                        <div class="d-flex align-items-center">
+                          <figure style="max-width: 20px;" class="mr-2">
+                            <img src="./assets/img/room.svg">
+                          </figure>
+                          <span class="text-dark">4</span>
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <figure style="max-width: 20px;" class="mr-2">
+                            <img src="./assets/img/bathroom.svg">
+                          </figure>
+                          <span class="text-dark">4</span>
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <figure style="max-width: 20px;" class="mr-2">
+                            <img src="./assets/img/car.svg">
+                          </figure>
+                          <span class="text-dark">4</span>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="card-badge position-absolute m-1">
+
+                  <div class="badge rounded-pill bg-light text-dark px-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#8C0010"
+                      class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                      <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                    </svg>
+                    Gualivá - Cundinamarca
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-12 col-sm-4 p-4">
+              <a class="card shadow card-post position-relative" href="publicaciones-desc.html">
+                <img src="assets/img/img1.jpg" class="card-img-top" alt="...">
+                <div class="card-body position-absolute bg-light">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-9">
+                        <div class="row">
+                          <div class="col-12">
+                            <h5 class="mb-1 bold text-dark">$ 100.000</h5>
+                            <div>
+                              <p class="text-primary mb-0">Apartamento</p>
+                              <h5 class="mb-0 bold  text-dark">Villeta</h5>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                      <div class="col-3 d-flex flex-column justify-content-between">
+                        <div class="d-flex align-items-center">
+                          <figure style="max-width: 20px;" class="mr-2">
+                            <img src="./assets/img/room.svg">
+                          </figure>
+                          <span class="text-dark">4</span>
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <figure style="max-width: 20px;" class="mr-2">
+                            <img src="./assets/img/bathroom.svg">
+                          </figure>
+                          <span class="text-dark">4</span>
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <figure style="max-width: 20px;" class="mr-2">
+                            <img src="./assets/img/car.svg">
+                          </figure>
+                          <span class="text-dark">4</span>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="card-badge position-absolute m-1">
+
+                  <div class="badge rounded-pill bg-light text-dark px-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#8C0010"
+                      class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                      <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                    </svg>
+                    Gualivá - Cundinamarca
+                  </div>
+                </div>
+              </a>
+            </div>
+
+
+            <div class="col-12 col-sm-4 p-4">
+              <a class="card shadow card-post position-relative" href="publicaciones-desc.html">
+                <img src="assets/img/img1.jpg" class="card-img-top" alt="...">
+                <div class="card-body position-absolute bg-light">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-9">
+                        <div class="row">
+                          <div class="col-12">
+                            <h5 class="mb-1 bold text-dark">$ 100.000</h5>
+                            <div>
+                              <p class="text-primary mb-0">Apartamento</p>
+                              <h5 class="mb-0 bold  text-dark">Villeta</h5>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                      <div class="col-3 d-flex flex-column justify-content-between">
+                        <div class="d-flex align-items-center">
+                          <figure style="max-width: 20px;" class="mr-2">
+                            <img src="./assets/img/room.svg">
+                          </figure>
+                          <span class="text-dark">4</span>
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <figure style="max-width: 20px;" class="mr-2">
+                            <img src="./assets/img/bathroom.svg">
+                          </figure>
+                          <span class="text-dark">4</span>
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <figure style="max-width: 20px;" class="mr-2">
+                            <img src="./assets/img/car.svg">
+                          </figure>
+                          <span class="text-dark">4</span>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="card-badge position-absolute m-1">
+
+                  <div class="badge rounded-pill bg-light text-dark px-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#8C0010"
+                      class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                      <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                    </svg>
+                    Gualivá - Cundinamarca
+                  </div>
+                </div>
+              </a>
+            </div>
+
+
+            <div class="col-12 col-sm-4 p-4">
+              <a class="card shadow card-post position-relative" href="publicaciones-desc.html">
+                <img src="assets/img/img1.jpg" class="card-img-top" alt="...">
+                <div class="card-body position-absolute bg-light">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-9">
+                        <div class="row">
+                          <div class="col-12">
+                            <h5 class="mb-1 bold text-dark">$ 100.000</h5>
+                            <div>
+                              <p class="text-primary mb-0">Apartamento</p>
+                              <h5 class="mb-0 bold  text-dark">Villeta</h5>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                      <div class="col-3 d-flex flex-column justify-content-between">
+                        <div class="d-flex align-items-center">
+                          <figure style="max-width: 20px;" class="mr-2">
+                            <img src="./assets/img/room.svg">
+                          </figure>
+                          <span class="text-dark">4</span>
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <figure style="max-width: 20px;" class="mr-2">
+                            <img src="./assets/img/bathroom.svg">
+                          </figure>
+                          <span class="text-dark">4</span>
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <figure style="max-width: 20px;" class="mr-2">
+                            <img src="./assets/img/car.svg">
+                          </figure>
+                          <span class="text-dark">4</span>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="card-badge position-absolute m-1">
+
+                  <div class="badge rounded-pill bg-light text-dark px-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#8C0010"
+                      class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                      <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                    </svg>
+                    Gualivá - Cundinamarca
+                  </div>
+                </div>
+              </a>
+            </div>
+
+
+            <div class="col-12 col-sm-4 p-4">
+              <a class="card shadow card-post position-relative" href="publicaciones-desc.html">
+                <img src="assets/img/img1.jpg" class="card-img-top" alt="...">
+                <div class="card-body position-absolute bg-light">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-9">
+                        <div class="row">
+                          <div class="col-12">
+                            <h5 class="mb-1 bold text-dark">$ 100.000</h5>
+                            <div>
+                              <p class="text-primary mb-0">Apartamento</p>
+                              <h5 class="mb-0 bold  text-dark">Villeta</h5>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                      <div class="col-3 d-flex flex-column justify-content-between">
+                        <div class="d-flex align-items-center">
+                          <figure style="max-width: 20px;" class="mr-2">
+                            <img src="./assets/img/room.svg">
+                          </figure>
+                          <span class="text-dark">4</span>
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <figure style="max-width: 20px;" class="mr-2">
+                            <img src="./assets/img/bathroom.svg">
+                          </figure>
+                          <span class="text-dark">4</span>
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <figure style="max-width: 20px;" class="mr-2">
+                            <img src="./assets/img/car.svg">
+                          </figure>
+                          <span class="text-dark">4</span>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="card-badge position-absolute m-1">
+
+                  <div class="badge rounded-pill bg-light text-dark px-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#8C0010"
+                      class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                      <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                    </svg>
+                    Gualivá - Cundinamarca
+                  </div>
+                </div>
+              </a>
+            </div>
+
+
+            <div class="col-12 col-sm-4 p-4">
+              <a class="card shadow card-post position-relative" href="publicaciones-desc.html">
+                <img src="assets/img/img1.jpg" class="card-img-top" alt="...">
+                <div class="card-body position-absolute bg-light">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-9">
+                        <div class="row">
+                          <div class="col-12">
+                            <h5 class="mb-1 bold text-dark">$ 100.000</h5>
+                            <div>
+                              <p class="text-primary mb-0">Apartamento</p>
+                              <h5 class="mb-0 bold  text-dark">Villeta</h5>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                      <div class="col-3 d-flex flex-column justify-content-between">
+                        <div class="d-flex align-items-center">
+                          <figure style="max-width: 20px;" class="mr-2">
+                            <img src="./assets/img/room.svg">
+                          </figure>
+                          <span class="text-dark">4</span>
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <figure style="max-width: 20px;" class="mr-2">
+                            <img src="./assets/img/bathroom.svg">
+                          </figure>
+                          <span class="text-dark">4</span>
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <figure style="max-width: 20px;" class="mr-2">
+                            <img src="./assets/img/car.svg">
+                          </figure>
+                          <span class="text-dark">4</span>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="card-badge position-absolute m-1">
+
+                  <div class="badge rounded-pill bg-light text-dark px-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#8C0010"
+                      class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                      <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                    </svg>
+                    Gualivá - Cundinamarca
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-12 col-sm-4 p-4">
+              <a class="card shadow card-post position-relative" href="publicaciones-desc.html">
+                <img src="assets/img/img1.jpg" class="card-img-top" alt="...">
+                <div class="card-body position-absolute bg-light">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-9">
+                        <div class="row">
+                          <div class="col-12">
+                            <h5 class="mb-1 bold text-dark">$ 100.000</h5>
+                            <div>
+                              <p class="text-primary mb-0">Apartamento</p>
+                              <h5 class="mb-0 bold  text-dark">Villeta</h5>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                      <div class="col-3 d-flex flex-column justify-content-between">
+                        <div class="d-flex align-items-center">
+                          <figure style="max-width: 20px;" class="mr-2">
+                            <img src="./assets/img/room.svg">
+                          </figure>
+                          <span class="text-dark">4</span>
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <figure style="max-width: 20px;" class="mr-2">
+                            <img src="./assets/img/bathroom.svg">
+                          </figure>
+                          <span class="text-dark">4</span>
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <figure style="max-width: 20px;" class="mr-2">
+                            <img src="./assets/img/car.svg">
+                          </figure>
+                          <span class="text-dark">4</span>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="card-badge position-absolute m-1">
+
+                  <div class="badge rounded-pill bg-light text-dark px-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#8C0010"
+                      class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                      <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                    </svg>
+                    Gualivá - Cundinamarca
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-12 col-sm-4 p-4">
+              <a class="card shadow card-post position-relative" href="#">
+                <img src="assets/img/img1.jpg" class="card-img-top" alt="...">
+                <div class="card-body position-absolute bg-light">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-9">
+                        <div class="row">
+                          <div class="col-12">
+                            <h5 class="mb-1 bold text-dark">$ 100.000</h5>
+                            <div>
+                              <p class="text-primary mb-0">Apartamento</p>
+                              <h5 class="mb-0 bold  text-dark">Villeta</h5>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                      <div class="col-3 d-flex flex-column justify-content-between">
+                        <div class="d-flex align-items-center">
+                          <figure style="max-width: 20px;" class="mr-2">
+                            <img src="./assets/img/room.svg">
+                          </figure>
+                          <span class="text-dark">4</span>
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <figure style="max-width: 20px;" class="mr-2">
+                            <img src="./assets/img/bathroom.svg">
+                          </figure>
+                          <span class="text-dark">4</span>
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <figure style="max-width: 20px;" class="mr-2">
+                            <img src="./assets/img/car.svg">
+                          </figure>
+                          <span class="text-dark">4</span>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="card-badge position-absolute m-1">
+
+                  <div class="badge rounded-pill bg-light text-dark px-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#8C0010"
+                      class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                      <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                    </svg>
+                    Gualivá - Cundinamarca
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-12 col-sm-4 p-4">
+              <a class="card shadow card-post position-relative" href="#">
+                <img src="assets/img/img1.jpg" class="card-img-top" alt="...">
+                <div class="card-body position-absolute bg-light">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-9">
+                        <div class="row">
+                          <div class="col-12">
+                            <h5 class="mb-1 bold text-dark">$ 100.000</h5>
+                            <div>
+                              <p class="text-primary mb-0">Apartamento</p>
+                              <h5 class="mb-0 bold  text-dark">Villeta</h5>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                      <div class="col-3 d-flex flex-column justify-content-between">
+                        <div class="d-flex align-items-center">
+                          <figure style="max-width: 20px;" class="mr-2">
+                            <img src="./assets/img/room.svg">
+                          </figure>
+                          <span class="text-dark">4</span>
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <figure style="max-width: 20px;" class="mr-2">
+                            <img src="./assets/img/bathroom.svg">
+                          </figure>
+                          <span class="text-dark">4</span>
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <figure style="max-width: 20px;" class="mr-2">
+                            <img src="./assets/img/car.svg">
+                          </figure>
+                          <span class="text-dark">4</span>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="card-badge position-absolute m-1">
+
+                  <div class="badge rounded-pill bg-light text-dark px-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#8C0010"
+                      class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                      <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                    </svg>
+                    Gualivá - Cundinamarca
+                  </div>
+                </div>
+              </a>
+            </div>
+
+
+
+          </div>
+        </div>
+
+    </div>
+    </main>
+  </div>
+
+  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script type="module" src="assets/js/bootstrap.bundle.min.js"></script>
+  <script type="module">
+    import Swiper from 'https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js'
+    
+      const swiper = new Swiper('.swiper', {
+          slidesPerView: 1,
+          breakpoints: {
+            
+            640: {
+              slidesPerView: 3,
+              spaceBetween: 40
+            },
+          },
+          autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+          },
+            keyboard: {
+            enabled: true,
+          },
+          spaceBetween: 10,
+          freeMode: true,
+          pagination: {
+            el: '.swiper-pagination',
+          }
+        });
+    </script>
+
+
+</body>
+
+</html>
