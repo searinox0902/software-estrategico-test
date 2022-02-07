@@ -27,6 +27,7 @@
 // Toggle global options
 $enable-gradients: true;
 $enable-shadows: true;
+$primary: #8C0010 !default;
 
 // Customize some defaults
 $body-color: #333;
@@ -107,6 +108,7 @@ body {
 .pagetitle {
   margin-bottom: 10px;
 }
+
 .pagetitle h1 {
   font-size: 24px;
   margin-bottom: 0;
